@@ -31,16 +31,6 @@ main{
     width: 50px;
 }
 
-
-/* #navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #161616;
-    padding: 20px;
-    text-transform: uppercase;
-} */
-
 #navbar {
     display: flex;
     align-items: center;
@@ -68,7 +58,7 @@ main{
 }
 
 /*******************************************************************************\
-                                    NAVBAR
+                                    FOOTER
 \*******************************************************************************/
 
 footer{
