@@ -39,32 +39,32 @@
             Ducimus odit veritatis illo quidem? Eos voluptatibus itaque dignissimos, at id ipsa nisi. Nemo numquam doloremque quae recusandae quasi sunt voluptatum. Quidem debitis neque molestias alias tenetur architecto eius officiis!
             Blanditiis in aliquam iusto tempora consequuntur minus ipsam. Quidem cumque ut modi, rem libero earum corrupti illum maiores necessitatibus porro. Aspernatur ab qui eum beatae hic quae, laborum quibusdam odit.
         </p>
-    
-        
-
     </div>
+
+    <aside id="nav-container">
+        <h3 id="tags-title">Tags</h3>
+
+        <ul id="tag-list">
+            <?php foreach($currentPost['tags'] as $tag):?>
+                <li>
+                    <a href="#"><?= $tag ?></a>
+                </li>
+            <?php endforeach ?>
+        </ul>
+
+        <h3 id="categories-title">Categorias</h3>
+        <ul id="categories-list">
+            <?php foreach($categories as $category):?>
+                <li>
+                    <a href="#"><?= $category ?></a>
+                </li>
+            <?php endforeach ?>
+        </ul>
+    </aside>
+
 </main>
 
-<aside id="nav-container">
-    <h3 id="tags-title">Tags</h3>
 
-    <ul class="tag-list">
-        <?php foreach($currentPost['tags'] as $tag):?>
-            <li>
-                <a href="#"><?= $tag ?></a>
-            </li>
-        <?php endforeach ?>
-    </ul>
-
-    <h3 id="categoriesititle">Categorias</h3>
-    <ul id="categories-list">
-        <?php foreach($categories as $category):?>
-            <li>
-                <a href="#"><?= $category ?></a>
-            </li>
-        <?php endforeach ?>
-    </ul>
-</aside>
 
 
 
