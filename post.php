@@ -20,7 +20,7 @@
         <h1 id="main-title"> <?= $currentPost['title'] ?></h1>
         <p id="post-description"><?= $currentPost['description'] ?></p>
 
-        <div class="img-container">
+        <div id="img-container">
             <img src="<?= $BASE_URL ?>/img/<?= $currentPost['img']?>" alt="<?= $currentPost['title'] ?>">
         </div>
 
